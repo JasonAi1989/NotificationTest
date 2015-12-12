@@ -13,6 +13,7 @@
 		9663EBCC1C1C372B0077D220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9663EBCA1C1C372B0077D220 /* Main.storyboard */; };
 		9663EBCE1C1C372B0077D220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9663EBCD1C1C372B0077D220 /* Assets.xcassets */; };
 		9663EBD11C1C372B0077D220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9663EBCF1C1C372B0077D220 /* LaunchScreen.storyboard */; };
+		9663EBDA1C1C3CD90077D220 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9663EBD91C1C3CD90077D220 /* LogInViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9663EBCD1C1C372B0077D220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9663EBD01C1C372B0077D220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9663EBD21C1C372B0077D220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9663EBD81C1C3CD90077D220 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		9663EBD91C1C3CD90077D220 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				9663EBCF1C1C372B0077D220 /* LaunchScreen.storyboard */,
 				9663EBD21C1C372B0077D220 /* Info.plist */,
 				9663EBC11C1C372B0077D220 /* Supporting Files */,
+				9663EBD81C1C3CD90077D220 /* LogInViewController.h */,
+				9663EBD91C1C3CD90077D220 /* LogInViewController.m */,
 			);
 			path = notificationTest;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9663EBDA1C1C3CD90077D220 /* LogInViewController.m in Sources */,
 				9663EBC91C1C372B0077D220 /* ViewController.m in Sources */,
 				9663EBC61C1C372B0077D220 /* AppDelegate.m in Sources */,
 				9663EBC31C1C372B0077D220 /* main.m in Sources */,
