@@ -94,4 +94,7 @@
     _logInBtn.hidden = YES;
 }
 
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 @end
